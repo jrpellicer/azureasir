@@ -12,7 +12,7 @@ permalink: /
 Prácticas de contenidos del CFGS de ASIR para realizar en el portal Azure.
 {: .fs-6 .fw-300 }
 
-[Iniciar ahora](./docs/practica01.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Iniciar ahora](https://jrpellicer.github.io/azureasir/docs/practica01.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Ver en GitHub](https://github.com/jrpellicer/azureasir){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 El objetivo de estas prácticas es replicar en **Azure** algunas de las infraestructuras *on-premise* estudiadas durante el curso.

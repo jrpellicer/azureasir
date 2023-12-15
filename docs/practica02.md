@@ -23,7 +23,7 @@ Azure ofrece muchas soluciones y servicios de almacenamiento. Las 5 principales 
 - **Tablas de Azure**: Opción tabla NoSQL para datos estructurados y no relacionales. 
 
 
-<img src="images/practica_01_01.png" width="700">
+<img src="images/practica_02_01.png" width="500">
 
 Todos los servicios de almacenamiento necesitan estar asociados a una cuenta de almacenamiento (**Azure Storage Account**). Podemos tener una o varias de estas cuentas de almacenamiento en varios grupos de recursos.  
 
@@ -40,7 +40,7 @@ ___
 {:style="counter-reset:none"}
 
 
-2. Creamos una cuenta de almacenamiento en el grupo de recursos almacenamiento que acabamos de crear:
+2. Creamos una **Cuenta de Almacenamiento** en el grupo de recursos almacenamiento que acabamos de crear:
 - Nombra a la cuenta de almacenamiento como quieras, por ejemplo, *asirstorage*
 - Por motivos de coste, selecciona la opción de Rendimiento Estándar y la Redundancia Local (LRS) 
 
@@ -71,7 +71,7 @@ ___
 {:style="counter-reset:none"}
 
 
-5. Accede al recurso recién creado asir-azure. Mediante la opción Examinar: 
+5. Accede al recurso recién creado *asir-azure*. Mediante la opción **Examinar**: 
 - Agrega un directorio. 
 - Carga un fichero en él. 
 
@@ -79,7 +79,7 @@ ___
 
 {:style="counter-reset:none"}
 
-6. En la Información General del recurso hay una opción que pone conectar. En ella nos aparecen scripts para Windows, Linux y Mac. Copia el script para el sistema operativo de la máquina que vayas a utilizar para probarlo (por ejemplo, un Windows). 
+6. En la **Información General** del recurso hay una opción que pone **Conectar**. En ella nos aparecen scripts para Windows, Linux y Mac. Copia el script para el sistema operativo de la máquina que vayas a utilizar para probarlo (por ejemplo, un Windows). 
 
 ___
 
@@ -87,9 +87,9 @@ ___
 
 
 7. En una máquina externa crea un script con el contenido copiado. 
-- Si es una máquina Windows el archivo debe acabar con la extensión .ps1, y si es Linux nómbralo con la extensión .sh 
-- Para ejecutar el script en Windows antes tienes que habilitar previamente la ejecución de scripts como administrador (Set-ExecutionPolicy Unrestricted) 
-- Para ejecutar el script en Linux debes asignar permisos de ejcución (a+x). 
+- Si es una máquina Windows el archivo debe acabar con la extensión *.ps1*, y si es Linux nómbralo con la extensión *.sh* 
+- Para ejecutar el script en Windows antes tienes que habilitar previamente la ejecución de scripts como administrador `Set-ExecutionPolicy Unrestricted`
+- Para ejecutar el script en Linux debes asignar permisos de ejcución (*a+x*). 
 
 ___
 
@@ -107,7 +107,7 @@ ___
 9. Accede a Este Equipo y comprueba que tenemos la nueva Ubicación de Red. 
 
 
-<img src="images/practica_01_01.png" width="700">
+<img src="images/practica_02_02.png" width="700">
 
 
 {: .warning } 

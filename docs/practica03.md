@@ -113,7 +113,7 @@ ___
 
 {:style="counter-reset:none"}
 
-9.	Una vez finalizada la implementación, ve al grupo de recursos y **en la interfaz de red recién creada**, en el apartado **Grupo de Seguridad de Red**, asóciala al grupo *nsg-dmz*.
+9.	Una vez finalizada la implementación, ve al grupo de recursos y **en la interfaz de red** de la máquina recién creada, en el apartado **Grupo de Seguridad de Red**, asóciala al grupo *nsg-dmz*.
 
 ___
 
@@ -147,6 +147,8 @@ ___
 
 12.	Con las máquinas arrancadas, conéctate a *ub01* desde tu ordenador mediante `ssh` indicándole la IP Pública y con el parámetro `-i` la ubicación de la clave privada descargada.
 
+{: .warning }
+Al conectarnos con la clave privada descargada nos dará error de fichero inseguro. Para poder conectarnos sin problemas debemos establecer restricciones en los permisos (tanto en Windows como en Linux), dejando control total únicamente a nuestro usuario. 
 ___
 
 {:style="counter-reset:none"}

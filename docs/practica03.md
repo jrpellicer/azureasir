@@ -148,7 +148,8 @@ ___
 12.	Con las máquinas arrancadas, conéctate a *ub01* desde tu ordenador mediante `ssh` indicándole la IP Pública y con el parámetro `-i` la ubicación de la clave privada descargada.
 
 {: .warning }
-Al conectarnos con la clave privada descargada nos dará error de fichero inseguro. Para poder conectarnos sin problemas debemos establecer restricciones en los permisos (tanto en Windows como en Linux), dejando control total únicamente a nuestro usuario. 
+Al conectarnos con la clave privada descargada nos dará error de fichero inseguro. Para poder conectarnos sin problemas debemos establecer restricciones en los permisos (tanto en Windows como en Linux), dejando control total únicamente a nuestro usuario.
+
 ___
 
 {:style="counter-reset:none"}

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dominio Híbrido
-nav_order: 5
+nav_order: 6
 ---
 
 # Dominio con Cliente Local y Servidor en Azure

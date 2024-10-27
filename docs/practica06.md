@@ -62,7 +62,10 @@ ___
 
 3.	Una vez creado el recurso accedemos a él y vamos a cambiar un parámetro relacionado con la seguridad para facilitar la conexión remota sin necesidad de certificados SSL. Accedemos a la configuración, al apartado *Parámetros del Servidor*. Ponemos a **OFF** el parámetro *require_secure_transport*. Guardamos.
 
-<img src="images/practica_06_02.jpg" width="700">
+<a href="images/practica_06_02.jpg" target="_blank">
+    <img src="images/practica_06_02.jpg" width="700">
+</a>
+
 
 ___
 
@@ -70,7 +73,10 @@ ___
 
 4.	En las reglas del firewall nos aseguramos de que se ha creado la regla que definimos en el momento de la creación para permitir conexiones desde nuestra IP.
 
-<img src="images/practica_06_03.jpg" width="700">
+<a href="images/practica_06_03.jpg" target="_blank">
+    <img src="images/practica_06_03.jpg" width="700">
+</a>
+
 
 ___
 
